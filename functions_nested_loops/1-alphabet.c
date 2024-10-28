@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print alphabet - printing the alphabet in lower cases.
+ * print_alphabet - printing the alphabet in lower cases.
  * Return: value 0.
  */
 
@@ -15,5 +15,4 @@ void print_alphabet(void)
 		_putchar(lower);
 	}
 	_putchar('\n');
-
 }
