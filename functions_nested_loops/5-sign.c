@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * _abs - claculates the absolut value
+ *@n: number to calculate.
+ *Return: gives the absolute value.
  */
 
 int print_sign(int n)
