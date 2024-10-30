@@ -4,6 +4,7 @@
  * print_line - prints a line a determined
  * amount of time.
  * @n: function variable.
+ * @i: function variable.
  */
 
 void print_line(int n)
