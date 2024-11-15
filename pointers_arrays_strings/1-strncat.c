@@ -3,11 +3,9 @@
 
 /**
  * _strncat - print 2 strings together.
- * _strlen - finding the length of a string.
  * @dest: pointer.
  * @src: pointer.
  * @n: pointer.
- * @s: pointer.
  * Return: value 0.
  */
 
@@ -23,11 +21,17 @@ char *_strncat(char *dest, char *src, int n)
 	return (dest);
 }
 
-int _strlen(char *s)
+/**
+ * _strlen - finding the length of a string.
+ * @str: pointer.
+ * Return: value 0.
+ */
+
+int _strlen(char *str)
 {
 	int a;
 
-	for (a = 0; s[a] != '\0'; a++)
+	for (a = 0; str[a] != '\0'; a++)
 		;
 
 	return (a);
