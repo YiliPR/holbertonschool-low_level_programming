@@ -3,9 +3,11 @@
 
 /**
  * _strncat - print 2 strings together.
+ * _strlen - finding the length of a string.
  * @dest: pointer.
  * @src: pointer.
  * @n: pointer.
+ * @s: pointer.
  * Return: value 0.
  */
 
