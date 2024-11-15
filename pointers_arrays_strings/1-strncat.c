@@ -12,11 +12,21 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
-	int dest_len = strlen(dest);
+	int dest_len = _strlen(dest);
 
 	for (i = 0; i < n && src[i]; i++)
 		dest[dest_len + i] = src[i];
 	dest[dest_len + i] = '\0';
 
 	return (dest);
+}
+
+int _strlen(char *s)
+{
+	int a;
+
+	for (a = 0; s[a] != '\0'; a++)
+		;
+
+	return (a);
 }
