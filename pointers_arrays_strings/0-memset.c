@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * memset - fill memory.
+ * _memset - fill memory.
  *
  * @s: pointer.
  *
