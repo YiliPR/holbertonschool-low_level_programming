@@ -3,6 +3,24 @@
 #include <stdlib.h>
 
 /**
+ * str_len - finds the length of the string.
+ *
+ * @str: pointer.
+ *
+ * Return: value of the length of the string.
+ */
+
+int str_len(const char *str)
+{
+	int len;
+
+	for (len = 0; str[len] != '\0'; len++)
+		;
+
+	return (len);
+}
+
+/**
  * add_node - adds a node at the front of the list.
  *
  * @head: pointer.
@@ -21,7 +39,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 
 	newnode->str = strdup(str);
-	newnode->len = strlen(str);
+	newnode->len = str_len(str);
 	newnode->next = *head;
 	*head = newnode;
 
