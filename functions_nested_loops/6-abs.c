@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * _abs - finds the absolute value.
+ * @n: varaible given.
+ * Return: value 0.
  */
 
 int _abs(int n)

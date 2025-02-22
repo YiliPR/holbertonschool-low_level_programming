@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * print_last_digit
+ * @n: variable given
+ * Retrun: value 0.
  */
 
 int print_last_digit(int n)

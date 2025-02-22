@@ -2,8 +2,11 @@
 #include "main.h"
 
 /**
- *_islower - checking for lower case character
- *Return: 1 if c is lowercase, 0 otherwise.
+ * _islower - checking for lower case character
+ * 
+ * @c: variable given 
+ * 
+ * Return: 1 if c is lowercase, 0 otherwise.
  */
 
 int _islower(int c)

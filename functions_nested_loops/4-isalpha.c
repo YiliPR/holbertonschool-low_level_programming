@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * _isalpha - looks for uppercase
+ * 
+ * @c: variable given
+ * 
+ *Return: return value 1 if true otherwise 0.
  */
 
 int _isalpha(int c)

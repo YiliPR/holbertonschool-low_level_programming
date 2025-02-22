@@ -2,8 +2,8 @@
 
 /**
  * _abs - claculates the absolut value
- *@n: number to calculate.
- *Return: gives the absolute value.
+ * @n: number to calculate.
+ * Return: gives the absolute value.
  */
 
 int print_sign(int n)
