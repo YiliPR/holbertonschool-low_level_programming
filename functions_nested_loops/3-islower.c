@@ -4,7 +4,7 @@
 /**
  * _islower - checking for lower case character
  * 
- * @c: variable given 
+ * @c: variable given
  * 
  * Return: 1 if c is lowercase, 0 otherwise.
  */
