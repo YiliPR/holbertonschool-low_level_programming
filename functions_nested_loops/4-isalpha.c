@@ -3,9 +3,7 @@
 
 /**
  * _isalpha - looks for uppercase
- * 
  * @c: variable given
- * 
  * Return: return value 1 if true otherwise 0.
  */
 
