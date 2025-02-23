@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * tiems_table - multiplication table
+ * tiemes_table - multiplication table
  */
 
 void times_table(void)

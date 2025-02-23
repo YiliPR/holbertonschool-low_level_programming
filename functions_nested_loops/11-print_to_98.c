@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - prints numbers
+ * print_to_98 - prints numbers.
  * @n: varaible given.
- * Return: value 0.
  */
 
 void print_to_98(int n)
