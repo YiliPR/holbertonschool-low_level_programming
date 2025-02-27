@@ -2,12 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define PASSWORD_LENGTH 8  // Adjust based on crackme's expected length
+#define PASSWORD_LENGTH 8
 
 /**
  * main - Generates a random password for 101-crackme
  * Return: 0 on success
  */
+
 int main(void)
 {
     char password[PASSWORD_LENGTH + 1];
@@ -24,3 +25,4 @@ int main(void)
     printf("%s\n", password);
     return (0);
 }
+
